@@ -1,8 +1,9 @@
 javascript: (function () {
     var file_name = prompt("Enter a file name to save the chat:");
-    file_name = file_name || "chatgpt_" + new Date().getFullYear() + "-" +
+    const currentDate = new Date();
+    file_name = file_name || "chatgpt_" + currentDate.getFullYear() + "-" +
         (currentDate.getMonth() + 1).toString().padStart(2, "0") + "-" +
-        currentDate.getDate().toString().padStart(2, "0") + " " +
+        currentDate.getDate().toString().padStart(2, "0") + "-" +
         currentDate.getHours().toString().padStart(2, "0") + "-" +
         currentDate.getMinutes().toString().padStart(2, "0");
 
