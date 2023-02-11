@@ -18,15 +18,15 @@ javascript: (function () {
         <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
         <style>
-            [class^="flex flex-col items-center text-sm h-full"]>div:nth-child(2n+1) {
+            [class^="flex flex-col items-center text-sm"]>div:nth-child(2n+1) {
                 background: lightgray;
             }
             
-            [class^="flex flex-col items-center text-sm h-full"]>div:nth-child(2n+2) {
+            [class^="flex flex-col items-center text-sm"]>div:nth-child(2n+2) {
                 background: darkgray;
             }
             
-            [class^="flex flex-col items-center text-sm h-full"]>div:not(:last-child) {
+            [class^="flex flex-col items-center text-sm"]>div:not(:last-child) {
                 padding: 10px;
                 margin: 15px;
                 border-radius: 5px;
